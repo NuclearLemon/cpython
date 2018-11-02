@@ -127,6 +127,10 @@ asyncio
 
 On Windows, the default event loop is now :class:`~asyncio.ProactorEventLoop`.
 
+html
+------
+
+:mod:`html.entities` HTML5 character entity references require trailing semicolon.
 
 idlelib and IDLE
 ----------------
