@@ -18,9 +18,8 @@ This module defines four dictionaries, :data:`html5`,
 
    A dictionary that maps HTML5 named character references [#]_ to the
    equivalent Unicode character(s), e.g. ``html5['gt;'] == '>'``.
-   Note that the trailing semicolon is included in the name (e.g. ``'gt;'``),
-   however some of the names are accepted by the standard even without the
-   semicolon: in this case the name is present with and without the ``';'``.
+   Note that the trailing semicolon is included in the name (e.g. ``'gt;'``).
+   This is required for the name to be accepted by the standard.
    See also :func:`html.unescape`.
 
    .. versionadded:: 3.3
